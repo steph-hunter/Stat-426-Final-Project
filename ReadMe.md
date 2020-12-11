@@ -789,7 +789,7 @@ list(zip(lmx.coef_, feature_names))
 
 
 
-Based on these coefficients from the basic linear model, wages do have an effect on student enrollment. A higher median wage means more people choose that major. Unemployment rate also impacts the number of students enrolled in a major; generally as unemployment rate goes up, so does the number of students. This suggests that people gravitate more toward degrees with higher unemployment rates. Perhaps those job markets are saturated and it's harder to find a job.
+Based on these coefficients from the basic linear model, wages do have an effect on student enrollment. A higher median wage means more people choose that major. Unemployment rate also impacts the number of students enrolled in a major; generally as unemployment rate goes up, the number of students enrolled in the major goes down. This suggests that people gravitate more toward degrees with lower unemployment rates.
 
 
 ```python
@@ -799,12 +799,9 @@ Based on these coefficients from the basic linear model, wages do have an effect
 
 ### Conclusions
 
-Economic factors can help us predict how many students are enrolled in a major or program. If a college major had a greater median wage, more people chose that program. At the same time, a greater unemployment rate was also associated with more students enrolling in that major. While college students are generally aware of their potential salary in a job using their degree, students also need to look at unemployment rates in their fields. If their job has a good salary but is in low demand, they are likely to struggle financially.
+Economic factors can help us predict how many students are enrolled in a major or program. If a college major had a greater median wage, more people chose that program. At the same time, a lower unemployment rate was also associated with more students enrolling in that major. This suggests that students are indeed choosing majors that will be good for them economically. 
 
-
-```python
-
-```
+This data is a few years old, and there are lots of other variables that could have been included in an analysis like this. I would be interested in trying to answer the same question with a bigger dataset.
 
 
 ```python
